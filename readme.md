@@ -1,6 +1,6 @@
 # Bases de git
 
-En este documento, encontrarás una guía rápida que abarca los comandos básicos y esenciales para utilizar Git y GitHub. Esta guía te ayudará a comenzar con el control de versiones y la colaboración en tus proyectos.
+En este documento, encontrarás una guía rápida que abarca los comandos básicos y esenciales para utilizar Git y GitHub. Esta guía te ayudará a comenzar con el control de versiones y la colaboración en tus proyectos, esta guia supone que usted ya tiene un repositorio en Github creado, y quiere comenzar subir su proyecto.
 
 ## Contenido
 
@@ -37,7 +37,7 @@ git init
 
 ---
 
-GitHub utiliza ramas para almacenar proyectos. En este sistema de ramificación, hay una rama principal y también pueden existir ramas secundarias. En este caso, ejecutaremos el siguiente comando para crear localmente nuestra rama principal llamada "main":
+Git utiliza ramas para almacenar proyectos. En este sistema de ramificación, hay una rama principal y también pueden existir ramas secundarias. En este caso, ejecutaremos el siguiente comando para crear localmente nuestra rama principal llamada "main":
 
 ```bash
 git branch -M main
