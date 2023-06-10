@@ -10,8 +10,8 @@ En este documento, encontrarás una guía rápida que abarca los comandos básic
 2. [Creación de una rama principal](#Creación-de-una-rama-principal)
 3. [Agregar un origen a nuestro repositorio local](#Agregar-un-origen-a-nuestro-repositorio-local)
 4. [Agregar elementos a nuestro repositorio local](#Agregar-elementos-a-nuestro-repositorio-local)
-5. [Preparar repositorio local para empujar los cambios (commit)](<#Preparar-repositorio-local-para-empujar-los-cambios-(commit)>)
-6. [Empujar cambios al repositorio remoto (push)](<#Empujar-cambios-al-repositorio-remoto-(push)>)
+5. [Preparar repositorio local para empujar los cambios (commit)](#Preparar-repositorio-local-para-empujar-los-cambios)
+6. [Empujar cambios al repositorio remoto (push)](#Empujar-cambios-al-repositorio-remoto)
 
 ## Creación de repositorio local
 
@@ -93,7 +93,7 @@ Esto agregará todos los archivos modificados al área de preparación, este es 
 
 4. Verifica el estado de los archivos agregados utilizando el comando "git status". Deberías ver los archivos que has agregado resaltados en verde.
 
-## Preparar repositorio local para empujar los cambios (commit)
+## Preparar repositorio local para empujar los cambios
 
 ---
 
@@ -115,11 +115,11 @@ Es importante tener en cuenta que los commits son independientes y se pueden rea
 
 Después de realizar el commit, puedes utilizar el comando "git push" para enviar tus cambios al repositorio remoto, como mencionamos anteriormente.
 
-## Empujar cambios al repositorio remoto (push)
+## Empujar cambios al repositorio remoto
 
 ---
 
-Para subir tus cambios y tu proyecto al repositorio remoto en GitHub, puedes utilizar el comando "git push -u origin". Este comando enviará tus archivos locales al repositorio remoto que has configurado previamente como "origin". La opción "-u" establece la rama de seguimiento predeterminada para futuros empujes, lo que facilita los empujes posteriores. A continuación, te explico cómo utilizarlo:
+Para subir tus cambios y tu proyecto al repositorio remoto en GitHub, puedes utilizar el comando `git push -u origin`. Este comando enviará tus archivos locales al repositorio remoto que has configurado previamente como `origin`. La opción "-u" establece la rama de seguimiento predeterminada para futuros empujes, lo que facilita los empujes posteriores. A continuación, te explico cómo utilizarlo:
 
 1. Asegúrate de estar ubicado en la carpeta raíz de tu proyecto en la terminal o línea de comandos.
 
@@ -135,12 +135,12 @@ Por ejemplo el caso de haber nombrado tu rama principal como `main` el comando s
 git push -u origin main
 ```
 
-Reemplaza <nombre_rama> por el nombre de la rama en la que deseas realizar el empuje. Si estás utilizando la rama principal, reemplaza <nombre_rama> por "main".
+Reemplaza <nombre_rama> por el nombre de la rama en la que deseas realizar el empuje. Si estás utilizando la rama principal, reemplaza <nombre_rama> por `main`.
 
 3. Git solicitará tus credenciales de GitHub (nombre de usuario y contraseña o token de acceso personal) para autenticar el empuje.
 
 4. Una vez autenticado, los archivos locales serán empujados al repositorio remoto en GitHub. Esto puede tardar unos momentos dependiendo del tamaño de tu proyecto y la velocidad de tu conexión a internet.
 
-Después de ejecutar el comando "git push -u origin" por primera vez, en futuros empujes podrás utilizar simplemente "git push" sin necesidad de especificar la rama, ya que Git recordará la configuración de seguimiento predeterminada.
+Después de ejecutar el comando `git push -u origin` por primera vez, en futuros empujes podrás utilizar simplemente "git push" sin necesidad de especificar la rama, ya que Git recordará la configuración de seguimiento predeterminada.
 
 Recuerda que es importante tener en cuenta las políticas de colaboración establecidas en tu proyecto y asegurarte de no sobrescribir el trabajo de otros colaboradores al realizar los empujes.
